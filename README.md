@@ -68,11 +68,19 @@ Interpolation estimates unknown pixel values when resizing or transforming image
 
 ## 📊 Visualization Example
 
-> _Replace placeholders with real results in GitHub or HTML preview._
+Using `image1.jpg` from the `input_images` folder, the following results were generated after applying various processing techniques.
 
-| Original | Grayscale | Filtered | Resized (Bilinear) |
-|----------|-----------|----------|--------------------|
-| ![o](https://via.placeholder.com/100x100?text=Original) | ![g](https://via.placeholder.com/100x100?text=Gray) | ![f](https://via.placeholder.com/100x100?text=Blur) | ![r](https://via.placeholder.com/100x100?text=Bilinear) |
+| Original        | Grayscale        | Binary Threshold     | Quantized Image      |
+|----------------|------------------|----------------------|----------------------|
+| ![Original](input_images/image1.jpg) | ![Gray](output_images/gray_image1.jpg) | ![Binary](output_images/binary_image1.jpg) | ![Quantized](output_images/quantized_image1.jpg) |
+
+| Histogram (Gray)         | Histogram (Binary)         | Histogram (Quantized)       |
+|--------------------------|----------------------------|------------------------------|
+| ![GrayHist](output_images/histogram_gray_image1.jpg) | ![BinHist](output_images/histogram_binary_image1.jpg) | ![QuantHist](output_images/histogram_quantized_image1.jpg) |
+
+| Nearest Neighbor Resized | Bilinear Resized           |
+|--------------------------|----------------------------|
+| ![Nearest](output_images/nearest_resized_image1.jpg) | ![Bilinear](output_images/bilinear_resized_image1.jpg) |
 
 ---
 
